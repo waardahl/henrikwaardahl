@@ -110,11 +110,12 @@ h6 {
   padding-top: 1rem;
   padding-bottom: 17rem;
   
+  
   background: url("../img/bg-front.png"); 
   background-color: black; 
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 101% auto;
 }
 
 .masthead h1 {
@@ -130,7 +131,7 @@ h6 {
 @media (min-width: 1144px) {
   .masthead {
     height: 100vh;
-    background-position: -1px;
+    
     
   }
   .masthead h1 {
