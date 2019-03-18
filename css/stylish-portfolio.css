@@ -484,9 +484,10 @@ transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will g
 }
 
 .portfolio-modal .modal-content .list-inline {
-  margin-top: 0;
-  margin-bottom: 30px;
-  color: rgba(255, 255, 255, 0.836);
+  margin-top: 30px;
+  margin-bottom: 20px;
+  
+  color:rgba(255, 255, 255, 0.664);
  
 }
 
