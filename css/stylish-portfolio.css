@@ -561,3 +561,7 @@ transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will g
   height: 100%;
   width: 100%;
 }
+
+.row:before, .row:after{
+  display:inline-block;
+}
