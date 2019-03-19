@@ -265,6 +265,7 @@ h6 {
   overflow: hidden;
   max-width: 530px;
   margin: auto auto 1rem;
+  margin-top: 10px;
 }
 
 .portfolio-item .caption {
@@ -564,6 +565,22 @@ transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will g
   width: 100%;
 }
 
+/* makes rows ok in safari */
 .row:before, .row:after{
   display:inline-block;
+}
+
+/* slideshow for photos */
+#slideshow {
+  margin: auto;
+  position: relative;
+  width: 438px;
+  height: 260px;
+
+
+}
+
+#slideshow > div {
+  position: absolute;
+
 }
